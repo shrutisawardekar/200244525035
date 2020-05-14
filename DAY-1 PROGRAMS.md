@@ -1,5 +1,5 @@
 
-#1.1
+** #1.1 **
 n=int(input("Enter a number"))
 count=0
 while n!=0:
@@ -7,7 +7,7 @@ while n!=0:
        count+=1
 print("count of digits is:",count)
 
-#1.2
+** #1.2 **
 list=[]
 n=int(input("enter the value of n:"))
 for i in range(n):
@@ -17,14 +17,14 @@ print("list =",list)
 for i in range(len(list)-1,-1,-1):
        print(list[i])
 
-#2.
+** #2. **
 s1=input("enter a string")
 s2=input("enter a string")
 mid=int(len(s1)/2)
 new_string=s1[:mid-1:]+s2+s1[mid-1:]
 print("New String:",new_string)
 
-#3.
+** #3. **
 input_string=input("enter a string")
 upper_case=[]
 lower_case=[]
@@ -36,7 +36,7 @@ for i in input_string:
 final_string=" ".join(lower_case+upper_case)
 print(final_string)
 
-#5.
+** #5. **
 listOne=[]
 listTwo=[]
 n=int(input("enter the value of n:"))
